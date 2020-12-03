@@ -65,7 +65,7 @@ li{
     .header{
         min-height: 60vh;
     }
-    .headerimg{
+    .header img{
         width:50rem
     }
 }
@@ -169,7 +169,7 @@ li{
         display: block;
         color: #fff;
         font-size: 2.3rem;
-        padding: 00.5rem;
+        padding: 0.5rem;
         cursor: pointer;
     }
     .nav-link:link,
@@ -224,7 +224,7 @@ body.show::before{
 .hero a:link,
 .hero:visited{
     display: inline-block;
-    padding: 8rem 2.5rem;
+    padding: 0.8rem 2.5rem;
     border: 1px solid #e79aba;
     background-color: #e79aba;
     color: #fff;
@@ -244,8 +244,14 @@ body.show::before{
     }
 }
 @media only screen and (max-width: 567px){
-    .hero h1{
+    .hero {
         top: 35%;
+    }
+    .hero h3{
+        font-size: 1.6rem;
+    }
+    .hero h1{
+        font-size: 3rem;
     }
     .hero h4{
         font-size: 1.6rem;
