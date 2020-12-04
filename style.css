@@ -540,6 +540,7 @@ a.btn:active{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
+    overflow: hidden;
 }
 .left h2{
     font-size: 2rem;
