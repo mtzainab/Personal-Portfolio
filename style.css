@@ -145,9 +145,11 @@ li{
         background-color: #fff;
         transition: all 500ms ease-in-out;
         z-index: 100;
+        display: none;
     }
     .menu.show{
         left: 0;
+        display: inline;
     }
     .top-nav{
         display: flex;
@@ -488,7 +490,7 @@ a.btn:active{
     }
 }
 
-/* Teams */
+/* Teams 
 .team{
     color: #fff;
     background-color: #111;
@@ -524,7 +526,7 @@ a.btn:active{
     margin: 0 auto 1rem auto
 }
 
-.tem:hover{
+.team:hover{
     border-bottom:4px solid #fff;
     background-color: #e79aba;
 }
@@ -532,7 +534,7 @@ a.btn:active{
 .team:hover .img-cover{
     border-color: #fff;
 
-}
+}*/
 /* Contact */
 .contact-center{
     display: grid;
